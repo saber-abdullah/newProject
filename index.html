@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Дипломная работа</title>
+	<meta charset="utf-8">
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon_package/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon_package/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon_package/favicon-16x16.png">
+	<link rel="manifest" href="images/favicon_package/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+    <!-- -->
+	<meta name="viewport" content="width=320, initial-scale=1">
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<script src="https://kit.fontawesome.com/6e8f1cee48.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+  	<script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  	<link rel="stylesheet" href="iconfonts/css/all.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/stylep.css">
+</head>
+<body>
+
+	<header>
+		<div class="container fa-container">
+			<!-- Всплывающая окошка -->
+			<div class="popup-container">
+					<div class="popup">
+					<!-- 	заказать проект -->
+						<form action="" method="POST" class="form_1">
+							<div>
+								<label for="field1">Имя * : </label>
+								<input type="text" name="name" id="field1" placeholder="Your name" required="required">
+							</div>
+                             
+                            <div>
+								<label for="field2">Номер телефона * : </label>
+								<input type="tel" name="Phone" id="field2" placeholder="Phone" required="required">
+							</div>
+							<button type="submit" class="btn-btn">Отправить</button>
+							<div class="checkbox">
+								<input type="checkbox" name="user-agreement" value="" required="required" id="field4">
+								<label for="field4">Я согласен c <a href="#" target="_blank">политикой конфиденциальности</a></label>
+								<p> * Поля обязательно к заполнению</p>
+							</div>
+						</form>
+						 <!-- Узнать больше  -->
+						<form action="" method="POST" class="form_2">
+							<div>
+								<label for="field1">Имя * : </label>
+								<input type="text" name="name" id="field1" placeholder="Your name" required="required">
+							</div>
+                             
+                            <div>
+								<label for="field2">Номер телефона * : </label>
+								<input type="tel" name="Phone" id="field2" placeholder="Phone" required="required">
+							</div>
+							<div class="contact_email">
+								<label for="field3">E-mail * : </label>
+								<input type="email" name="email" id="field3" placeholder="E-mail" required="required">
+							</div>
+							<button type="submit" class="btn-btn">Отправить</button>
+							<div class="checkbox">
+								<input type="checkbox" name="user-agreement" value="" required="required" id="field4">
+								<label for="field4">Я согласен c <a href="#" target="_blank">политикой конфиденциальности</a></label>
+								<p>* Обязательно к заполнению</p>
+							</div>
+						</form>
+						<button  class="close_w">X</button>
+					</div>
+				</div>
+				<!-- **** -->
+			<div class="fixed-container">
+				<!-- Для планшета -->
+			    <div class="menu_ipad hidden">
+			    <div>
+			    	<div class="btn_menu ipad_menu"><i class="fas faas icon_menu fa-bars"></i></div>
+			    	<div class="close ipad_menu"><i class="fas faas icon_close fa-times"></i></div>
+			    	<div class="main_menu">
+				    	<nav class="menu_m">
+							<ul>
+								<li>
+								<a href="#">
+                                    <i class="fas faas fa-address-book"></i>
+									<span><a href="#"> Услуги </a></span>
+								</a>
+								</li>
+								<li>
+								<a href="#">
+									<i class="fas faas fa-clipboard"></i>
+									<span><a href="#"> Портфлио</a></span>
+								</a>
+								</li>
+								<li>
+								<a href="#">
+									<i class="fas faas fa-donate"></i>
+									<span><a href="#"> Стоимость</a></span>
+								</a>
+								</li>
+								<ul>
+								<div class="dropdown">
+									<span>Сабер Суфьян</span>
+									<span class="rotate"><i class="fas fa-angle-right"></i></span>
+								</div>
+								<div class="dropdown_list">
+								<li>
+									<a href="#">
+                                    <i class="fas faas fa-user"></i>
+                                    <span><a href="#"> Обо мне</a></span>
+									</a>
+								</li>
+								<li>
+								<a href="#">
+									<i class="far fas faas fa-smile"></i>
+									<span><a href="#"> Веб-дизайн</a></span>
+								</a>
+								</li>
+								<li>
+								<a href="#">
+									<i class="fas faas fa-pen"></i>
+									<span><a href="#"> Писание</a></span>
+								</a>
+								</li>
+								<li>
+								<a href="#">
+									<i class="fas faas fa-globe-asia"></i>
+									<span><a href="#"> Графический дизайн</a></span>
+								</a> 
+								</li>
+								<li>
+								<a href="#">
+									<i class="far faas fas fa-heart"></i>
+									<span><a href="#"> Фотосъемка</a></span>
+								</a>
+								</li>
+								<li>
+								<a href="toemail:alkoraidhi@mail.ru">
+									<i class="far faas fas fa-comment-alt"></i>
+									<span class="toContact"><a href="#"> Свяжитесь с нами!</a></span>
+								</a>
+								</li>
+								</div>
+								<div class="contact_pp">
+									<a href="tel:+7(931)541-05-07">
+									<i class="fas faas fa-phone-alt"></i>
+									+7(931) 541-05-07</a>
+									<button class="button_1 button_p">Заказать звонок</button>
+								</div>
+								</ul>
+							</ul>
+							<div class="text-3p">&#169; Сабер Суфьян, 2016 - 2018 </div>
+						</nav>
+					</div>
+			    </div>
+		            <div class="contact_p">
+						<a href="tel:+7(931)541-05-07">+7(931) 541-05-07 </a>
+						<button class="button_1">Заказать звонок</button>
+					</div>
+					<div class="search">
+						<form method="get">
+							<input type="search" class="search_field" name="name" placeholder="Поиск по сайту">
+							<button class="icon-search"><i class="fas faas icon_search fa-search"></i></button>
+						</form>
+					</div>
+				</div>
+				<!--   -->
+				<!-- Для телефона  -->
+                <div class="menu_mobile">
+				    <div>
+				    	<div class="btn_menu "><i class="fas faas icon_menu fa-bars"></i></div>
+				    	<div class="close"><i class="fas faas icon_close fa-times"></i></div>
+				    </div>
+			        <div class="phone_n">
+						<a href="tel:+7(931)541-05-07"> +7(931) 541-05-07 </a> 
+					</div>
+					<div>
+						<button class="button_1">Заказать звонок</button>
+					</div>
+				</div>
+				<!-- --->
+				<div class="header-container fixed-flex">
+					<div class="head-menu">
+						<nav>
+							<ul>
+								<li><a href="#my-works">Услуги</a></li>
+								<li><a class="active" href="#opj">Портфлио</a></li>
+								<li><a href="#cost">Стоимость</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="contact">
+						<a href="tel:+7(931)541-05-07"> +7(931) 541-05-07 </a>
+						<button class="button_1">Заказать звонок</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="main_sec">
+		<section>
+			<div class="container center-container">
+                <div class="trans_1">{ }</div>
+            	<div class="trans_2">#</div>
+            	<div class="trans_3"> < / > </div> 
+  
+				<div class="fixed-container  fixed-flex faa">
+					<div class="trans_4"> < div > </div>
+	            	<div class="trans_5">< div ></div> 
+					<div class="left hidden_l">
+						<h1>Сабер Суфьян</h1>
+						<div class="text_1">Frontend-разрабочик и&nbsp;веб-версталщик</div>
+		                <button class="button_2">Узнать больше</button>
+					</div>
+					<div class="right">
+						<img src="images/pr1.png" alt="person">	
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Для телефона -->
+			<div class="fixed-container  fixed-flex ">
+				<div class="left_m">
+					<h1>Сабер Суфьян</h1>
+					<div class="text_1">Frontend-разрабочик и&nbsp;веб-версталщик</div>
+	            </div>
+	            
+			</div>
+			<div class="fixed-container  btn-m">
+				<button class="button_2">Узнать больше</button>
+			</div>	
+	   <!-- -->
+        <section id="my-works">
+			<h2>Что я делаю</h2>
+
+			<div class="fixed-container  fa__flex" >
+				<div class="fixed-flex">
+					<div class="icons">
+					    <img src="images/tools-and-utensils.png" alt="tools-and-utensils">
+						<div class="text">
+							Вёрстка лендинг-страниц и&nbsp;сайтов любой сложности
+						</div>
+					</div>
+
+					<div class="icons">
+						<img src="images/responsive.png" alt="responsive">
+						<div class="text">
+							Адаптивная вёрстка под все браузеры и&nbsp;устройства
+						</div>
+					</div>
+
+					<div class="icons">
+						<img src="images/programming.png" alt="programming" >
+						<div class="text">
+							Frontend-разработка и&nbsp;программирование
+						</div>
+					</div>
+
+					<div class="icons">
+						<img src="images/coding.png" alt="coding">
+						<div class="text">
+							Исследование и&nbsp;доработка существующей вёрстки
+						</div>
+					</div>
+				</div>
+				    <div class="button-3 btn-3">
+						<button class="button_31 ">Узнать стоимость</button>
+				    </div>	
+			</div>
+        </section>
+
+        <section class="container ">
+            <div class="fixed-container" id="opj">
+				<h2>Примеры моих работ</h2>
+
+				<div class="regular slider">
+					<div class="my_works">
+					    <img src="images/site-p.png" alt="site1" title="Сайт психолога Веры Антоновой">
+					    <div class="text">
+							Сайт психолога Веры Антоновой 
+						</div>
+					</div>
+					<div class="my_works">
+					    <img src="images/site-c.png" alt="site2" title="Сайт магазина детской одежды ">
+					    <div class="text">
+							Сайт магазина детской одежды 
+						</div>
+					</div>
+					<div class="my_works">
+					    <img src="images/site-f.png" alt="site3" title="Сайт магазина Рыболов">
+						<div class="text">
+							Сайт магазина &laquo;Рыболов&raquo; 
+						</div>
+					</div>
+					<div class="my_works">
+					    <img src="images/Rectangle 3.png" alt="site4" title="Сайт новости Новостное агентсво">
+					    <div class="text">
+					    	Сайт новости &laquo;Новостное агентсво&raquo;
+					    </div>
+					</div>
+				</div>
+				<div class="button-3">
+					<button class="button_3">Заказать проект</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="small-container">
+            <div class="fixed-container center_container" id="cost">
+            	<div class="text-1">
+            		Адаптивная вёрстка под все устройства и&nbsp;браузеры от&nbsp;1000 рублей всего
+		            за&nbsp;4&nbsp;часа.*
+            	</div>
+            	<div class="text-2">
+            		* Срок и&nbsp;стоимость могут отличаться от&nbsp;заявленных и&nbsp;рассчитыватся индивидуально, в&nbsp;зависимости от&nbsp;сложности задач.
+            	</div>
+
+                <div class="trans1">{ }</div>
+            	<div class="trans2">#</div>
+            	<div class="trans3"> < / > </div>
+            	<div class="trans4">{ }</div>
+            	<div class="trans5">< div ></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+            <div class="fixed-container  fixed-flex item-lower">
+            	<div class="lower-menu">
+            		<nav>
+            			<ul>
+            				<li><a href="#my-works"> Услуги</a></li>
+            				<li><a href="#opj"> Портфолио</a></li>
+            				<li><a href="#cost"> Стоимость</a></li>
+            			</ul>
+            		</nav>
+            	</div>
+
+            	<div class="contact_1">
+            		<div class="phone">
+	            		<i class="fas faas fa-phone-alt"></i>
+	            		<a href="tel:+7(931)541-05-07">+7(931) 541-05-07</a>
+            		</div>
+            		<div class="mail">
+	            		<i class="fas faas fa-envelope"></i>
+	            		<span>alkoraidhi@mail.ru</span>
+            		</div>
+            	</div>
+
+            	<div class="contact-menu">
+            		<button class="button_4">Заказать звонок</button>
+            		<nav class="newContact">
+            		<ul>
+            			<li>
+            				<a href="#"  target="_blank" title="vk">
+            					<span></span>
+            				</a>
+            			</li>
+            			<li>
+            				<a href="#"  target="_blank" title="facebook">
+            					<span></span>
+            				</a>
+            			</li>
+            			<li>
+            				<a href="#" target="_blank" title="twitter">
+            					<span></span>
+            				</a>
+            			</li>
+            			<li>
+            				<a href="#" target="_blank" title="instagram">
+            					<span></span>
+            				</a>
+            			</li>
+            		</ul>
+            		</nav>
+            	</div>
+            </div>
+            <div class="last-container">
+            	<div class="text-3">&#169; Сабер Суфьян, 2016 - 2019 </div>
+            </div>
+    </footer>
+    <div class="arrow-up">
+    	<a href="#" title="Наверх" class="up_arrow">
+    		<img src="images/up-arrow.png" alt="arrow">
+    	</a>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
